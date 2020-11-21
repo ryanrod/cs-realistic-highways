@@ -27,9 +27,8 @@ for size in sizes:
   for elevation in elevations:
     for mtype in mtypes:
       for detail in details:
-        filename = name + " " + size + elevation + mtype + detail + ".obj"
-        input_file = "Mesh/" + size + "/" + filename
-        output_file =  output_dir + filename
+        input_file = "Mesh/" + size + "/" + name + " " + size + elevation + mtype + ".obj"
+        output_file =  output_dir + name + " " + size + elevation + mtype + detail + ".obj"
 
         try: 
           copyfile(input_file, output_file)
