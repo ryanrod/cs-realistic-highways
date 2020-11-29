@@ -8,7 +8,7 @@ dirname = os.path.dirname(__file__)
 name = "Realistic Highway"
 
 sizes = ["2L"]
-elevations = [""," Elevated"," Bridge"]
+elevations = [""," Elevated"] # Bridge, Tunnel
 mtypes = ["", "_node"]
 details = ["", "_lod"]
 textures = ["_a", "_d", "_p", "_r"]
